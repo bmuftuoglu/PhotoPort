@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reglog.css">
+    <link rel="shortcut icon" href="images/sitelogoicon.png" type="image/x-icon">
+    <title>PhotoPort | Register</title>
+    <script>
+        function refresh() {
+            location.reload();
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="register-content">
+            <form method="POST" class="register-form">
+                <h2 class="form-title">CREATE ACCOUNT</h2>
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-input" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-input" placeholder="Repeat Your Password">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" class="agree-term">
+                    <label class="label-agree-term"><span><span></span></span>I agree all statements in
+                        <a href="#" class="term-service">Terms of service</a></label>
+                </div>
+                <div class="form-group">
+                    <input type="submit" onsubmit="refresh()" name="submit" class="form-submit"  value="sign up">
+                </div>
+            </form>
+            <p class="loginhere">
+                Have already an account? <a href="/login.html" class="loginhere-link">Login here</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

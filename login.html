@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reglog.css">
+    <link rel="shortcut icon" href="images/sitelogoicon.png" type="image/x-icon">
+    <title>PhotoPort | Login</title>
+    <script>
+        function refresh() {
+            alert("You submitted the form!");
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-content">
+            <form method="POST" class="login-form">
+                <h2 class="form-title">log In</h2>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-input" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" class="agree-term">
+                    <label class="label-agree-term"><span><span></span></span>Remember Me</label>
+                </div>
+                <div class="form-group">
+                    <input type="submit" onsubmit="refresh()" name="submit" class="form-submit" value="LOG IN">
+                </div>
+            </form>
+            <p class="forgotpassword">
+                <a href="#" class="loginhere-link">Forgot Password</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
